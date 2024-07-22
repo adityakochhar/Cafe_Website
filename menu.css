@@ -1,0 +1,118 @@
+.logo{
+
+    max-width: 100px;
+    height: 70px;
+    width: auto;
+    }
+
+    .container-fluid{
+        background-color: rgb(219, 184, 142);
+        color: #ffffff; /* Setting text color to white for contrast */
+        font-family: Arial, sans-serif; /* Example font stack */
+        padding: 20px; /* Example padding for content */
+        margin-top: 55px;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .contact {
+    background: #2D211E;
+    padding: 50px 0;
+    color: #FFF8EB;
+    }
+
+    .contact_row{
+        display: flex;
+        flex-direction: row;
+
+
+
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0px;
+    }
+
+    .three_columns{
+        flex: 1;
+
+
+    }
+
+    #mid{
+        padding: 0;
+    }
+
+    footer {
+        background-color: #000000;
+        color: white;
+    }
+
+    footer {
+        padding: 20px;
+        text-align: center;
+        background-color: rgb(17, 14, 13);
+    }
+
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+  
+    #ok{
+        padding-top: 15%;
+       
+    }
+
+
+
+
+
+
+
+
+    .menu{
+        padding-top: 10%;
+    }
+    .myitems{
+        display: flex;
+        gap: 2rem;
+
+        justify-content: center;
+        align-items: center ;
+    }
+
+    .items_list{
+        color: #000;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 2rem;
+
+    }
+
+    .items_list:hover{
+    border-bottom: 1px solid gray;
+    }
+
+    #col_margin{
+        margin-bottom: 2rem;
+    }
+
+    #desserts{
+        margin-bottom: 2rem;
+    }
+
+    @media screen {
+        
+    }@media only screen and (max-width: 820px) and (min-width: 702px) {
+        .contain {
+            padding: 20px;
+            font-size: large;
+            display: grid;
+            grid-template-columns: 0.7fr 1fr;
+        }
+    }
